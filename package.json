@@ -61,5 +61,8 @@
     "zaproxy": "^0.2.0"
   },
   "repository": "https://github.com/OWASP/NodejsGoat",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "overrides": {
+    "bson@1.0.9": "https://npm.aikido.io/2905f57dcec12a7b4bdac/bson@1.0.9-aikido.1"
+  }
 }
